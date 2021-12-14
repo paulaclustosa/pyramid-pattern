@@ -6,10 +6,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        printWelcomeMessage();
         boolean isRunning = true;
         Scanner inputScan = new Scanner(System.in);
 
+        printWelcomeMessage();
         do {
             int userInputNumber = readUserInputNumber(inputScan);
             String [][] pyramid = createPyramid(userInputNumber);
@@ -81,8 +81,3 @@ public class Main {
     }
 
 }
-
-
-
-
-

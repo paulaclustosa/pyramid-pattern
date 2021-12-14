@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        boolean isRunning = true;
+        boolean isRunning;
         Scanner inputScan = new Scanner(System.in);
 
         printWelcomeMessage();
